@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            display: block;
+        }
+        span.box{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            text-align: center;
+            line-height: 100px;
+        }
+        span.box:hover{
+            width: 100px;
+            height: 100px;
+            background-image: url(https://cdn.discordapp.com/attachments/1171693294024146986/1197104799628398632/Untitled.png?ex=65ba0db9&is=65a798b9&hm=f0fef7ff57be897461f70ca409eaae403a2616115f2d994c1ba7ec09e9171cef&);
+        }
+        div.box{ /*div class box*/
+            width: 100px;
+            height: 100px;
+            background-color: salmon;
+            text-align: center;
+        }
+        div.box:hover{
+            width: 100px;
+            height: 100px;
+            background-color: yellowgreen;
+        }
+        div.box.circle:hover{
+            border-radius: 100px;
+        }
+        div.box{
+            background-color: aqua;
+            margin-bottom: 10px;
+            line-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">1</div>
+    <div class="box circle">2</div>
+    <span class="box">3</span>
+</body>
+</html>
